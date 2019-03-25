@@ -87,7 +87,7 @@ body, html {
     color: black;
     height: 100%;
     margin: 0;
-    background-color: #ffffff;
+    background-color: white;
 }
 .header h1 {
     text-align: center;
@@ -115,7 +115,12 @@ font-size: 22px;
         font-family:"Lucida Console";
       list-style-type: circle;
 }
-
+.subsubtit a {
+    color: rgb(59, 44, 194);
+}
+.subsubtit  a:hover{
+    color: gray;
+}
 /* On smaller screens, decrease size of ... *//*
 @media only screen and (max-width: 300px) {
     .prev, .next,.tex {font-size: 11px}
