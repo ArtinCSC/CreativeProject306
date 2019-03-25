@@ -121,6 +121,16 @@ font-size: 22px;
 .subsubtit  a:hover{
     color: gray;
 }
+.hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+}
+
 /* On smaller screens, decrease size of ... *//*
 @media only screen and (max-width: 300px) {
     .prev, .next,.tex {font-size: 11px}
