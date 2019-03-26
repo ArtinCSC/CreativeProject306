@@ -3,125 +3,125 @@
 
 /* navbar */
 .navbar li a.active{
-    background-color: lightblue;
-    color: white;
+  background-color: lightblue;
+  color: white;
 }
 .navbar li a:hover:not(.active){
-    background-color: black;/*#555;*/
-    color: white;
+  background-color: black;
+  color: white;
 }
 .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: fixed;
-    background-color: white;
-    top: 0;
-    width: 100%;
-    font-family: "Lucida Console";
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  font-family: "Lucida Console";
 }
 
 .navbar li {
-    float: left;
+  float: left;
 }
 
 .navbar li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 11px 13px;
-    text-decoration: none;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 11px 13px;
+  text-decoration: none;
 }
 
 
 .navbar .icon {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 900px) {
-    .navbar li {display: none;}
-    .navbar li.icon {
-        float: left;
-        display: block;
-        background-color: black !important;
-        size: 8px 8px;
+  .navbar li {display: none;}
+  .navbar li.icon {
+    float: left;
+    display: block;
+    background-color: black !important;
+    size: 8px 8px;
 
-    }
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .navbar.responsive .icon {
-        background-color: black !important;
-        position: absolute;
-        right: 0;
-        top:0;
-    }
-    .navbar.responsive li {
-        background-color: black;
-        float: none;
-        display: block;
-        text-align: right;
-        width: 120px;
-        transition: 0.9s ease;
-        -webkit-transition:9s ease-in;
-        -moz-transition:9s ease;
-        -o-transition:9s ease;
-        background-color: black;
-    }
-    .navbar ul {
-        z-index: 1000;
-        transition: 0.9s ease;
-        -webkit-transition:9s ease-in;
-        -moz-transition:9s ease;
-        -o-transition:9s ease;
-    }
+  .navbar.responsive .icon {
+    background-color: black !important;
+    position: absolute;
+    right: 0;
+    top:0;
+  }
+  .navbar.responsive li {
+    background-color: black;
+    float: none;
+    display: block;
+    text-align: right;
+    width: 120px;
+    transition: 0.9s ease;
+    -webkit-transition:9s ease-in;
+    -moz-transition:9s ease;
+    -o-transition:9s ease;
+    background-color: black;
+  }
+  .navbar ul {
+    z-index: 1000;
+    transition: 0.9s ease;
+    -webkit-transition:9s ease-in;
+    -moz-transition:9s ease;
+    -o-transition:9s ease;
+  }
 }
 
 
 
-/* body */ 
+/* body */
 body, html {
-    font-family:"Lucida Console";
-    font-weight: bold;
-    color: black;
-    height: 100%;
-    margin: 0;
-    background-color: white;
+  font-family:"Lucida Console";
+  font-weight: bold;
+  color: black;
+  height: 100%;
+  margin: 0;
+  background-color: white;
 }
 .header h1 {
-    text-align: center;
-    font-family:"Lucida Console";
-    font-weight: bold;
+  text-align: center;
+  font-family:"Lucida Console";
+  font-weight: bold;
 }
 p {
-    font-family: "Lucida Console";
-    padding-left: 20px;
+  font-family: "Lucida Console";
+  padding-left: 20px;
 }
 .subtit h5 {
-        font-family:"Lucida Console";
-font-weight: bold;
+  font-family:"Lucida Console";
+  font-weight: bold;
 }
 .titl {
-        font-family:"Lucida Console";
-font-size: 22px;
+  font-family:"Lucida Console";
+  font-size: 22px;
 }
 .subtit {
-        font-family:"Lucida Console";
-    padding-left: 60px;
-      list-style-type: lower-alpha;
+  font-family:"Lucida Console";
+  padding-left: 60px;
+  list-style-type: lower-alpha;
 }
 .subsubtit{
-        font-family:"Lucida Console";
-      list-style-type: circle;
+  font-family:"Lucida Console";
+  list-style-type: circle;
 }
 .subsubtit a {
-    color: rgb(59, 44, 194);
+  color: rgb(59, 44, 194);
 }
 .subsubtit  a:hover{
-    color: gray;
+  color: gray;
 }
-.hr { 
+.hr {
   display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -131,154 +131,157 @@ font-size: 22px;
   border-width: 2px;
 }
 
+/* footer container */
+.grid-container {
+  display: grid;
+  right: 10px;
+  grid-column-gap: 30px;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  width: 100%;
+  padding: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.one{
+  margin-left: 15px;
+}
+.thi {
+  margin-right: 0px;
+}
+
+.title{
+  color: white;
+  font-size: 15px;
+  font-style: bold;
+  padding-bottom: 10px;
+}
+
+
+i a{
+  color: white;
+  text-decoration: none !important;
+}
+
+.four a{
+  color: white;
+  font-size: 25px;
+}
+.four a:hover{
+  color: gray;
+}
+.one a{
+  color: white;
+}
+.one a:hover{
+  color: gray;
+}
+
+@media screen and (max-width: 900px){
+  .grid-container {
+    grid-column-gap: 10px !important;
+    right: 10px;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .row, .navbar {
+    flex-direction: column;
+  }
+}
 /* On smaller screens, decrease size of ... *//*
 @media only screen and (max-width: 300px) {
-    .prev, .next,.tex {font-size: 11px}
+.prev, .next,.tex {font-size: 11px}
 }
 
 /*
 
 @media screen and (max-width: 900px) {
-    .login {
-        display: none !important;
-    }
-    /* .header-container{
-        display: inline-block;
-       grid-template-columns: auto;
-    }*/ /*
-    .logo{
-        grid-column: 1 / 4;
-    } 
-    .logo h3{
-        text-align: center;
-    }
+.login {
+display: none !important;
+}
+/* .header-container{
+display: inline-block;
+grid-template-columns: auto;
+}*/ /*
+.logo{
+grid-column: 1 / 4;
+}
+.logo h3{
+text-align: center;
+}
 }
 
 
 @media screen and (max-width: 700px){
-    .slidim{
-        height: 300px;
-    }
-    .tex{
-        font-size: 40px;
-    }
-    .dem h1{
-        font-size: 50px;
-        bottom: 120px;
-    }
-    .dem p{
-        font-size: 30px;
-        bottom: 70px;
-    }
+.slidim{
+height: 300px;
+}
+.tex{
+font-size: 40px;
+}
+.dem h1{
+font-size: 50px;
+bottom: 120px;
+}
+.dem p{
+font-size: 30px;
+bottom: 70px;
+}
 }
 
 
 @media screen and (max-width: 900px){
-    .safe{
-        grid-template-columns: auto;
-        display: table;
-    }
-    .safep{
-        display: table-footer-group;
-        
-    }
-    .safeimg{
-        display: table-header-group;
-    }
-    .safelist{
-        margin-right: 30px;
-    }
+.safe{
+grid-template-columns: auto;
+display: table;
+}
+.safep{
+display: table-footer-group;
+
+}
+.safeimg{
+display: table-header-group;
+}
+.safelist{
+margin-right: 30px;
+}
 }
 @media screen and (max-width: 700px){
-    .safe{
-        grid-template-columns: auto;
-        display: table;
-    }
-    .safep{
-        display: table-footer-group;
-    }
-    .safelist{
-        margin-right: 25px;
-    }
-    .safeimg{
-        display: table-header-group;
-    }
-    .inbod{
-        width: 40%;
-        height: 200px;
-    }
+.safe{
+grid-template-columns: auto;
+display: table;
+}
+.safep{
+display: table-footer-group;
+}
+.safelist{
+margin-right: 25px;
+}
+.safeimg{
+display: table-header-group;
+}
+.inbod{
+width: 40%;
+height: 200px;
+}
 }
 
 @media screen and (max-width: 900px){
-    .aboutimg{
-        display: none;
-    }
-    .about{
-        grid-template-columns: auto;
-    }
-    .aboutp{
-        margin-top: 20px;
-        text-align: center;
-    }
-    
+.aboutimg{
+display: none;
+}
+.about{
+grid-template-columns: auto;
+}
+.aboutp{
+margin-top: 20px;
+text-align: center;
+}
+
 }
 */
-/* footer container */
-.grid-container {
-    display: grid;
-    grid-column-gap: 30px;
-    right: 10px;
-    grid-template-columns: auto auto auto;
-    background-color: black;
-    width: 100%;
-    padding: 40px;
-}
-
-.one{
-    margin-left: 15px;
-}
-.thi {
-    margin-right: 0px;
-}
-
-.title{
-    color: white;
-    font-size: 20px;
-    font-style: bold;
-}
-
-
-i a{
-    color: white;
-    text-decoration: none !important;
-}
-
-.four a{
-    color: white;
-    font-size: 25px;
-}
-.four a:hover{
-    color: gray;
-}
-.one a{
-    color: white;
-}
-.one a:hover{
-    color: gray;
-}
-
-@media screen and (max-width: 900px){
-    .grid-container {
-        grid-column-gap: 10px !important;
-        right: 10px;
-    }
-}
-
-
-@media (max-width: 900px) {
-    .row, .navbar {
-        flex-direction: column;
-    }
-}
 
 
