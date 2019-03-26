@@ -1,130 +1,68 @@
-
-* {box-sizing: border-box;}
-
-/* navbar */
-.navbar li a.active{
-  background-color: lightblue;
-  color: white;
+* {
+  box-sizing: border-box;
 }
-.navbar li a:hover:not(.active){
-  background-color: black;
-  color: white;
-}
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: fixed;
-  background-color: white;
-  top: 0;
-  width: 100%;
-  font-family: "Lucida Console";
-}
-
-.navbar li {
-  float: left;
-}
-
-.navbar li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 11px 13px;
-  text-decoration: none;
-}
-
-
-.navbar .icon {
-  display: none;
-}
-
-@media screen and (max-width: 900px) {
-  .navbar li {display: none;}
-  .navbar li.icon {
-    float: left;
-    display: block;
-    background-color: black !important;
-    size: 8px 8px;
-
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .navbar.responsive .icon {
-    background-color: black !important;
-    position: absolute;
-    right: 0;
-    top:0;
-  }
-  .navbar.responsive li {
-    background-color: black;
-    float: none;
-    display: block;
-    text-align: right;
-    width: 120px;
-    transition: 0.9s ease;
-    -webkit-transition:9s ease-in;
-    -moz-transition:9s ease;
-    -o-transition:9s ease;
-    background-color: black;
-  }
-  .navbar ul {
-    z-index: 1000;
-    transition: 0.9s ease;
-    -webkit-transition:9s ease-in;
-    -moz-transition:9s ease;
-    -o-transition:9s ease;
-  }
-}
-
-
 
 /* body */
+
 body, html {
-  font-family:"Lucida Console";
+  font-family: "Lucida Console";
   font-weight: bold;
   color: black;
   height: 100%;
   margin: 0;
   background-color: white;
 }
+
+.table {
+  background-color: white;
+  color: black;
+}
+
 .header h1 {
   text-align: center;
-  font-family:"Lucida Console";
+  font-family: "Lucida Console";
   font-weight: bold;
 }
+
 p {
   font-family: "Lucida Console";
   padding-left: 20px;
 }
+
 .subtit h5 {
-  font-family:"Lucida Console";
+  font-family: "Lucida Console";
   font-weight: bold;
 }
+
 .subtit h6 {
   font-family: "Lucida Console";
   font-weight: bold;
 }
+
 .titl {
-  font-family:"Lucida Console";
+  font-family: "Lucida Console";
   font-size: 22px;
 }
+
 .subtit {
-  font-family:"Lucida Console";
+  font-family: "Lucida Console";
   padding-left: 60px;
   list-style-type: lower-alpha;
 }
-.subsubtit{
-  font-family:"Lucida Console";
+
+.subsubtit {
+  font-family: "Lucida Console";
   list-style-type: circle;
 }
+
 .subsubtit a {
   color: rgb(59, 44, 194);
 }
-.subsubtit  a:hover{
+
+.subsubtit a:hover {
   color: gray;
 }
+
 .hr {
   display: block;
   margin-top: 0.5em;
@@ -135,10 +73,20 @@ p {
   border-width: 2px;
 }
 
+.hrhalf {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-style: inset;
+  border-top: 1px dashed
+}
+
 /* footer container */
+
 .grid-container {
   display: grid;
-  right: 10px;
   grid-column-gap: 30px;
   grid-template-columns: auto auto auto;
   background-color: black;
@@ -148,54 +96,67 @@ p {
   padding-left: 20px;
 }
 
-.one{
+.one {
   margin-left: 15px;
 }
+
 .thi {
   margin-right: 0px;
 }
 
-.title{
+.title {
   color: white;
   font-size: 15px;
   font-style: bold;
   padding-bottom: 10px;
 }
 
-
-i a{
+i a {
   color: white;
   text-decoration: none !important;
 }
 
-.four a{
+.four a {
   color: white;
   font-size: 25px;
 }
-.four a:hover{
-  color: gray;
-}
-.one a{
-  color: white;
-}
-.one a:hover{
+
+.four a:hover {
   color: gray;
 }
 
-@media screen and (max-width: 900px){
+.one a {
+  color: white;
+}
+
+.one a:hover {
+  color: gray;
+}
+
+@media screen and (max-width: 900px) {
   .grid-container {
     grid-column-gap: 10px !important;
     right: 10px;
   }
 }
 
-
 @media (max-width: 900px) {
   .row, .navbar {
     flex-direction: column;
   }
 }
-/* On smaller screens, decrease size of ... *//*
+
+.w3-sidebar a {
+  font-family: "Lucida Console";
+}
+
+.w3-wide {
+  font-family: "Lucida Console";
+}
+
+/* On smaller screens, decrease size of ... */
+
+/*
 @media only screen and (max-width: 300px) {
 .prev, .next,.tex {font-size: 11px}
 }
@@ -209,7 +170,9 @@ display: none !important;
 /* .header-container{
 display: inline-block;
 grid-template-columns: auto;
-}*/ /*
+}*/
+
+/*
 .logo{
 grid-column: 1 / 4;
 }
@@ -287,5 +250,3 @@ text-align: center;
 
 }
 */
-
-
