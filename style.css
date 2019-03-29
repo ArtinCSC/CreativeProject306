@@ -29,6 +29,16 @@ p {
   padding-left: 20px;
 }
 
+.headimag {
+  float: right;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .subtit h5 {
   font-family: "Lucida Console";
   font-weight: bold;
@@ -47,7 +57,7 @@ p {
 .subtit {
   font-family: "Lucida Console";
   padding-left: 60px;
-  list-style-type: lower-alpha;
+  list-style-type: lower-roman;
 }
 
 .subsubtit {
