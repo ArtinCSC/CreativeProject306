@@ -19,7 +19,7 @@ $(document).ready(function () {
         scrollTop: $(hash).offset().top
       }, 1500, function () {
 
-        // Add hash (#) to URL when done scrolling (default click behavior)
+        // Add hash (#) to URL when done scrolling \
         window.location.hash = hash;
       });
     }  // End if
