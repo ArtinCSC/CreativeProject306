@@ -86,6 +86,18 @@ p {
   color: gray;
 }
 
+.subsubtit1 {
+  font-family: "Lucida Console";
+}
+
+.subsubtit1 a {
+  color: rgb(59, 44, 194);
+}
+
+.subsubtit1 a:hover {
+  color: gray;
+}
+
 .hr {
   display: block;
   margin-top: 0.5em;
