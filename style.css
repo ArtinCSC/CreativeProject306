@@ -1,197 +1,197 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* body */
 
 body, html {
-  font-family: "Lucida Console";
-  color: black;
-  height: 100%;
-  margin: 0;
-  background-color: rgb(231, 226, 226);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    font-family: "Lucida Console";
+    color: black;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(231, 226, 226);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .table {
-  background-color: gray;
-  color: black;
+    background-color: gray;
+    color: black;
 }
 
 .header h1 {
-  text-align: center;
-  font-family: "Lucida Console";
-  font-weight: bold;
+    text-align: center;
+    font-family: "Lucida Console";
+    font-weight: bold;
 }
 
 body p {
-  font-family: "Lucida Console";
-  padding-left: 20px;
-  font-size: 20px;
-  font-weight: 530;
+    font-family: "Lucida Console";
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 530;
 }
 
 .headimag {
-  float: right;
+    float: right;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .subtit h5 {
-  font-family: "Lucida Console";
-  font-weight: bold;
-  font-size: 20px;
+    font-family: "Lucida Console";
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .subtit h6 {
-  font-family: "Lucida Console";
-  font-weight: bold;
+    font-family: "Lucida Console";
+    font-weight: bold;
 }
 
 .lexisbox {
-  width: 35%;
-  border-color: gray;
-  border-width: 3px 0.5px 0.5px 3px;
-  border-style: outset;
-  padding: 8px;
-  margin: 20px;
-  float: right;
-  font-size: 15px;
+    width: 35%;
+    border-color: gray;
+    border-width: 3px 0.5px 0.5px 3px;
+    border-style: outset;
+    padding: 8px;
+    margin: 20px;
+    float: right;
+    font-size: 15px;
 }
 
 .titl {
-  font-family: "Lucida Console";
-  font-size: 23px;
-  font-weight: bold;
+    font-family: "Lucida Console";
+    font-size: 23px;
+    font-weight: bold;
 }
 
 .subtit {
-  font-family: "Lucida Console";
-  padding-left: 60px;
-  list-style-type: lower-roman;
+    font-family: "Lucida Console";
+    padding-left: 60px;
+    list-style-type: lower-roman;
 }
 
 .subsubtit {
-  font-family: "Lucida Console";
-  list-style-type: disc;
+    font-family: "Lucida Console";
+    list-style-type: disc;
 }
 
 .subsubtit a {
-  color: rgb(59, 44, 194);
+    color: rgb(59, 44, 194);
 }
 
 .subsubtit a:hover {
-  color: gray;
+    color: gray;
 }
 
 .subsubtit1 {
-  font-family: "Lucida Console";
+    font-family: "Lucida Console";
 }
 
 .subsubtit1 a {
-  color: rgb(59, 44, 194);
+    color: rgb(59, 44, 194);
 }
 
 .subsubtit1 a:hover {
-  color: gray;
+    color: gray;
 }
 
 .hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 2px;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
 }
 
 .hrhalf {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: 300px;
-  margin-right: 300px;
-  border-style: inset;
-  border-width: 2px;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-style: inset;
+    border-width: 2px;
 }
 
 /* footer container */
 
 .grid-container {
-  display: grid;
-  grid-column-gap: 30px;
-  grid-template-columns: auto auto auto;
-  background-color: black;
-  width: 100%;
-  padding: 5px;
-  padding-bottom: 5px;
-  padding-left: 20px;
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
 }
 
 .one {
-  margin-left: 15px;
+    margin-left: 15px;
 }
 
 .thi {
-  margin-right: 0px;
+    margin-right: 0px;
 }
 
 .title {
-  color: white;
-  font-size: 20px;
-  font-style: bold;
-  padding-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+    padding-bottom: 10px;
 }
 
 i a {
-  color: white;
-  text-decoration: none !important;
+    color: white;
+    text-decoration: none !important;
 }
 
 .four a {
-  color: white;
-  font-size: 25px;
+    color: white;
+    font-size: 25px;
 }
 
 .four a:hover {
-  color: lightgray;
+    color: lightgray;
 }
 
 .one a {
-  color: white;
+    color: white;
 }
 
 .one a:hover {
-  color: lightgray;
+    color: lightgray;
 }
 
 @media screen and (max-width: 900px) {
-  .grid-container {
-    grid-column-gap: 10px !important;
-    right: 10px;
-  }
+    .grid-container {
+        grid-column-gap: 10px !important;
+        right: 10px;
+    }
 }
 
 @media (max-width: 900px) {
-  .row, .navbar {
-    flex-direction: column;
-  }
+    .row, .navbar {
+        flex-direction: column;
+    }
 }
 
 .w3-sidebar a {
-  font-family: "Lucida Console";
+    font-family: "Lucida Console";
 }
 
 .w3-wide {
-  font-family: "Lucida Console";
+    font-family: "Lucida Console";
 }
 
 /*

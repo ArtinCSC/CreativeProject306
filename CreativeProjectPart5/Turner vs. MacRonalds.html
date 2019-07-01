@@ -218,676 +218,709 @@
 
 <body>
 
-    <!-- Sidebar/menu -->
-    <nav class="w3-sidebar w3-collapse w3-top w3-black w3-large w3-padding"
-        style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
-            style="width:100%;font-size:22px">Close Table</a>
-        <div class="w3-container w3-centered">
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-top w3-black w3-large w3-padding"
+     style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
+       style="width:100%;font-size:22px">Close Table</a>
+    <div class="w3-container w3-centered">
 
-            <h5 class="w3-padding w3-centered"><img class="center"
-                    src="https://www2.gmu.edu/sites/all/modules/features/feature_core_theme/templates/resources/images/mason-logo.png"
-                    alt="GMU logo" width="130" height="90"></br>Table of Contents</h5>
-        </div>
-        <div class="w3-bar-block navbar" id="myNavbar">
-            <a href="#header" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-lightgray">I.
-                &nbsp;&nbsp;&nbsp;<u>Mock
-                    Trial
-                    Description</u></a>
-            <ol style="list-style-type: none;">
-                <li><a href="#backg" onclick="w3_close()"
-                        class="w3-bar-item w3-button w3-hover-lightgray">Background</a></li>
-                <li><a href="#question" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-lightgray">Question
-                        Presented</a></li>
-                <li><a href="#legal" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-lightgray">Legal
-                        Elements</a></li>
-                <li><a href="#lexis" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-lightgray">Lexis/Nexis
-                        Case Bank</a></li>
-                <li><a href="#witlist" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-lightgray">Witness
-                        List &amp; Descriptions</a></li>
-
-
-            </ol>
-            <a href="#Trial-Analysis" onclick="w3_close()"
-                class="w3-bar-item w3-button w3-hover-lightgray">III.&nbsp;&nbsp;&nbsp;
-                <u>Overall Trail</u></a><br>
-
-            <a href="#note" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-lightgray">Authors</a>
-
-            </br></br>
-    </nav>
-
-    <!-- Top menu on small screens -->
-    <header class="w3-container w3-top w3-hide-large w3-xlarge w3-padding table">
-        <a href="javascript:void(0)" class="w3-button w3-margin-right" onclick="w3_open()">☰</a>
-        <span>Table of Contents</span>
-    </header> </br></br></br>
-
-    <!-- Overlay effect when opening sidebar on small screens -->
-    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
-        id="myOverlay"></div>
+        <h5 class="w3-padding w3-centered"><img class="center"
+                                                src="https://www2.gmu.edu/sites/all/modules/features/feature_core_theme/templates/resources/images/mason-logo.png"
+                                                alt="GMU logo" width="130" height="90"></br>Table of Contents</h5>
+    </div>
+    <div class="w3-bar-block navbar" id="myNavbar">
+        <a href="#header" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-lightgray">I.
+            &nbsp;&nbsp;&nbsp;<u>Mock
+                Trial
+                Description</u></a>
+        <ol style="list-style-type: none;">
+            <li><a href="#backg" onclick="w3_close()"
+                   class="w3-bar-item w3-button w3-hover-lightgray">Background</a></li>
+            <li><a href="#question" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-lightgray">Question
+                Presented</a></li>
+            <li><a href="#legal" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-lightgray">Legal
+                Elements</a></li>
+            <li><a href="#lexis" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-lightgray">Lexis/Nexis
+                Case Bank</a></li>
+            <li><a href="#witlist" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-lightgray">Witness
+                List &amp; Descriptions</a></li>
 
 
-    <!--
-                         header
-                         -->
-    <div class="w3-main " style="margin-left:330px;margin-right:45px" id="header">
-        <img class="headimag"
-            src="https://www2.gmu.edu/sites/all/modules/features/feature_core_theme/templates/resources/images/mason-logo.png"
-            alt="GMU LOGO" width="150" height="110"></br>
+        </ol>
+        <a href="#Trial-Analysis" onclick="w3_close()"
+           class="w3-bar-item w3-button w3-hover-lightgray">III.&nbsp;&nbsp;&nbsp;
+            <u>Overall Trail</u></a><br>
 
-        <div class="header" id="header" style="clear:both">
+        <a href="#note" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-lightgray">Authors</a>
 
-
-            <div class="w3-container">
-                </br>
-                <h1 class="w3-centered">Turner vs. MacRonalds</h1>
-            </div>
-        </div>
-        <!--
-Body 
- -->
         </br></br>
-        <div calss="body">
+</nav>
 
-            <div>
-                <p class="titl">I. Mock Trial Description</p>
-                <ol class="subtit">
-                    <li id="backg">
-                        <h5>Background/Scenario:</h5>
-                        <ul class="subsubtit">
-                            <li>
-                                <p>Ethan Turner, a customer of MacRonalds, is suing MacRonalds, for the injuries
-                                    suffered from the accident that occurred
-                                    in the drive-thru. Mr. Turner wants MacRonalds to remove their robot services from
-                                    the drive-thru until the bugs are
-                                    fixed. MacRonalds, a fast food chain, has recently come up with a new way to serve
-                                    drive-thru items with robots. The
-                                    robot is designed with a built-in-hand that grips on to food and releases when the
-                                    customer has a hold on to the food.
-                                    As customers drive up to the drive-thru window, they can see a manual that lets them
-                                    know how the robot operates. First,
-                                    customers give the order and the robot repeats the order to make sure it entered the
-                                    order correctly with the total
-                                    cost. Secondly, it asks the customers to drive up to the register window where they
-                                    will pay and get their order. The
-                                    robot announces “Caution! Handing the order! Prepare to receive it.” and hands, the
-                                    customer, their food. Finally, the
-                                    robot receives the payment for the food from the customer and returns change if any.
-                                </p>
-                                <p>Ethan Turner, a customer who wanted to get some food for his friends, visited
-                                    MacRonalds and ordered 10 meals that
-                                    consisted of a sandwich, fries and hot coffee. After giving the order, Mr. Turner
-                                    drove up to the window and handed a
-                                    100 dollars worth of bills in one hand and 78 cents on the other hand, as payment to
-                                    exchange with the robot. The robot
-                                    announced that it was delivering the food and as it detected Ethan’s hand, it began
-                                    delivering the large order of
-                                    coffees to Mr. Turner. With his hand full, Mr. Turner was unable to hold the meal
-                                    and this resulted in the hot coffee
-                                    spilling on him, causing second-degree burns. The plaintiff Ethan Turner, who
-                                    suffered second-degree burns at the
-                                    receiving end of the miscalculation, insinuated from the automated drive-thru robot,
-                                    is suing the defendant MacRonalds
-                                    on the grounds of Negligence and is demanding a preliminary injunction on further
-                                    usage of the robot until advancement
-                                    in the technology is made. Furthermore, he is seeking payment for the accrued
-                                    hospital bills for the damages he
-                                    suffered. The defendant must disprove the negligence allegations and show that the
-                                    plaintiff had violated contributory
-                                    negligence.
-                                </p>
-                            </li></br>
-                        </ul>
-                    </li>
-                    <hr class="hrhalf"></br>
-                    <li id="question">
-                        <h5>Question Presented:</h5>
-                        <ul class="subsubtit">
-                            <li>
-                                <h5>Legal Question:</h5>
-                                <ol style="list-style-type: circle;">
-                                    <li>
-                                        <p>
-                                            Is the manufacturer of the self-serving robot liable for the damages
-                                            suffered by the drive-thru customer?
-                                        </p>
-                                    </li>
-                                </ol>
-                            </li>
-                            <li>
-                                <h5>Ethical Question:</h5>
-                                <ol style="list-style-type: circle;">
-                                    <li>
-                                        <p>
-                                            Did Ethan behave ethically when e failed to acknowledge the indirect
-                                            warnings before proceeding through the automated
-                                            drive-thru?
-                                        </p>
-                                    </li>
-                                </ol>
-                            </li>
-                        </ul>
-                    </li></br>
-                    <hr class="hrhalf"></br>
-                    <li id="legal">
-                        <h5>Legal Elements:</h5>
-                        <ul class="subsubtit">
-                            <li>
-                                <p>This particular case involves the victim Ethan Turner and the fast-food mogul
-                                    MacRonalds. Both Negligence and
-                                    Contributory Negligence have 5 sub-elements that must be proved as outlined in the
-                                    Virginia statute. However,
-                                    contributory negligence under Virginia law follows the doctrine of pure contributory
-                                    negligence which means that if the
-                                    plaintiff is even so much as one percent at fault, he/she will have no case. Given
-                                    the overwhelming influence of
-                                    contributory negligence in Virginia, Only the Duty statute will be expanded upon.
-                                </p>
-                            </li>
-                            <li>
-                                <p>For the defendant to be held liable for Negligence, the plaintiff must demonstrate:
-                                </p>
-                                <ol style="list-style-type: lower-roman">
-                                    <li>
-                                        <p>The defendant owed a duty toward the plaintiff (i.e. reasonable care for
-                                            others safety).</p>
-                                        <ul style="list-style-type: circle">
-                                            <li>
-                                                <p>MacRonalds did not demonstrate proper care and safety for their
-                                                    customers. Potentially designing and implement robots to
-                                                    their restaurants that were not ready for public use yet.</p>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p>The defendant failed to act in a reasonable way or breached its duty (for
-                                            example, a driver was reckless or
-                                            intoxicated).
-                                        </p>
-                                        <ul style="list-style-type: circle">
-                                            <li>
-                                                <p>A lack of supervision of the robots or proper testing before their
-                                                    release.</p>
-                                            </li>
-                                        </ul>
-                                    </li>
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-xlarge w3-padding table">
+    <a href="javascript:void(0)" class="w3-button w3-margin-right" onclick="w3_open()">☰</a>
+    <span>Table of Contents</span>
+</header>
+</br></br></br>
 
-                                    <li>
-                                        <p>The defendant's breach was the actual cause of another's injuries.</p>
-                                        <ul style="list-style-type: circle">
-                                            <li>
-                                                <p>The robot’s failure to complete correct or intended actions.</p>
-                                            </li>
-                                        </ul>
-                                    </li>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+     id="myOverlay"></div>
 
-                                    <li>
-                                        <p>The defendant's breach was the proximate cause of the injuries (the defendant
-                                            should have known that the breach would
-                                            cause injury).</p>
-                                        <ul style="list-style-type: circle">
-                                            <li>
-                                                <p>The robot should have realized the customer was not ready to accept
-                                                    the meal.</p>
-                                            </li>
-                                        </ul>
-                                    </li>
 
-                                    <li>
-                                        <p>The plaintiff suffered actual injuries, for which they may claim damages.</p>
-                                        <ul style="list-style-type: circle">
-                                            <li>
-                                                <p>The robot had caused some form of damage to the plaintiff.
-                                                </p>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ol>
-                            </li>
-                            <li>
-                                <p>To be found innocent, the defendant must demonstrate:</p>
+<!--
+                     header
+                     -->
+<div class="w3-main " style="margin-left:330px;margin-right:45px" id="header">
+    <img class="headimag"
+         src="https://www2.gmu.edu/sites/all/modules/features/feature_core_theme/templates/resources/images/mason-logo.png"
+         alt="GMU LOGO" width="150" height="110"></br>
 
-                                <ol style="list-style-type: lower-roman">
-                                    <li>
-                                        <p>The sub-element of duty:
-                                        </p>
-                                        <ul style="list-style-type: circle">
-                                            <li>
-                                                <p>That the plaintiff was at least somewhat responsible for the cause of
-                                                    his their own injuries. Possible scenarios include
-                                                    a lack of awareness, inability to read instructions, improper grip,
-                                                    or failure to avoid injury.</p>
-                                            </li>
-                                            <li>
-                                                <p>That the plaintiff had not properly followed the instructions given
-                                                    by the self serve robot.</p>
-                                            </li>
-                                            <li>
-                                                <p>That they have completed all the care necessary to provide safety to
-                                                    their customer. For example, sufficient testing on
-                                                    the robot before using them in their store.</p>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ol>
-                            </li>
-                        </ul></br>
-                    </li>
-                    <hr class="hrhalf"></br>
-                    <li class="subsubtit1" id="lexis">
-                        <h5>Lexis/Nexis Case Bank:
-                            <div class="lexisbox">Note:
-                                <ol style="list-style-type: lower-alpha;">
-                                    <li>Which side the case supports.
-                                    </li>
-                                    <li>Which legal element it impacts.
-                                    </li>
-                                    <li>Summary of how it helps or hurts each side.</li>
-                                </ol>
-                            </div>
-                        </h5></br></br>
-                        <div>
-                            <ol class="subsubtit2">
-                                <li>
-                                    <p><a href="https://advance-lexis-com.mutex.gmu.edu/document?crid=933d351e-592e-4ba2-88f7-b20db86b1c99&pddocfullpath=%2Fshared%2Fdocument%2Fcases%2Furn%3AcontentItem%3A3S3J-VV00-003D-51NF-00000-00&pdcontentcomponentid=10810&pdmfid=1516831&pdisurlapi=true"
-                                            target="_blank">Wright
-                                            v. Webb, 234 Va. 527</a></p>
-                                    <ol style="list-style-type: lower-alpha;">
-                                        <li>
-                                            <p>
-                                                This case supports the plaintiff.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                The case handles the legal element of negligence, specifically the
-                                                sub-element duty. In the case, the defendant had
-                                                failed to demonstrate their duty of maintaining their parking lot in a
-                                                safe condition. The plaintiff had suffered an
-                                                assault on the defendant’s parking lot and the court found the defendant
-                                                had a duty to maintain that safety for the
-                                                people paying for that service.
+    <div class="header" id="header" style="clear:both">
 
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                The case would help the plaintiff if they can prove the defendant did
-                                                not demonstrate a duty to make sure their own
-                                                customers are safe on their own property. The defendant has a duty to
-                                                make sure their establishment and any services, in
-                                                this case, the robot is safe for their customers.
 
-                                            </p>
-                                        </li>
-                                    </ol>
-                                </li></br>
-                                <li>
-                                    <p><a href="https://advance-lexis-com.mutex.gmu.edu/api/document?collection=cases&id=urn:contentItem:3XK6-M5J0-00KR-C159-00000-00&context=1516831"
-                                            target="_blank">Smith
-                                            v. Norfolk &amp; W. Ry., 48 W. Va. 69</a></p>
-                                    <ol style="list-style-type: lower-alpha;">
-                                        <li>
-                                            <p>
-                                                This case supports the plaintiff.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                The case involves the legal element, negligence, with an emphasis on the
-                                                sub-element breach. The plaintiff, who was a
-                                                passenger of a railway company, had assault and battery committed on
-                                                them where the responsibility of the passengers
-                                                falls under the company. The company had demonstrated negligence by
-                                                breaching their duty of keeping their passengers
-                                                safe.
+        <div class="w3-container">
+            </br>
+            <h1 class="w3-centered">Turner vs. MacRonalds</h1>
+        </div>
+    </div>
+    <!--
+Body 
+-->
+    </br></br>
+    <div calss="body">
 
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                This case will be helpful for the plaintiff if they can prove that the
-                                                defendant had breached their duty of keeping
-                                                their own customers safe when using a service provided at their
-                                                restaurant.
-                                            </p>
-                                        </li>
-                                    </ol>
-                                </li></br>
-                                <li>
-                                    <p><a href="https://advance-lexis-com.mutex.gmu.edu/api/document?collection=cases&id=urn:contentItem:3S12-0DY0-003D-43VF-00000-00&context=1516831"
-                                            target="_blank">Atlantic
-                                            Rural Exposition, Inc. v. Fagan, 195 Va. 13</a></p>
-                                    <ol style="list-style-type: lower-alpha;">
-                                        <li>
-                                            <p>
-                                                This case supports the defendant.
-
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                The case corresponds to the legal element, negligence, with the breach
-                                                as
-                                                the sub-element. The plaintiff suffered an injury
-                                                from the plaintiff’s wheel being detached from their vehicle. It was
-                                                found the vehicle had been subjected to reasonable
-                                                inspection prior to being put on the track so there was no breach of
-                                                duty.
-
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                The case can help the defendant if they can prove all the robots had
-                                                been through proper and sufficient testing, to
-                                                prove they had not breached their duty in making sure the robots were
-                                                safe for public use.
-                                            </p>
-                                        </li>
-                                    </ol>
-                                </li></br>
-                                <li>
-                                    <p><a href="https://advance-lexis-com.mutex.gmu.edu/api/document?collection=cases&id=urn:contentItem:3S3J-WH60-003D-50H9-00000-00&context=1516831"
-                                            target="_blank">Norfolk &amp; W. R. Co. v. Emmert, 83 Va. 640</a></p>
-                                    <ol style="list-style-type: lower-alpha;">
-                                        <li>
-                                            <p>
-                                                This case supports the defendant.
-
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                The case corresponds to the legal element of negligence with the
-                                                sub-element, causation in particular. It involved an
-                                                injury received by the plaintiff from a defective caboose bumper but was
-                                                found that the plaintiff was found responsible
-                                                in his own lack of attention to detail.
-
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                The case can help in favor of the defendant by proving the plaintiff
-                                                failed to follow instructions and the injuries he
-                                                received were caused by his own fault.
-                                            </p>
-                                        </li>
-                                    </ol>
-                                </li></br>
-                                <li>
-                                    <p><a href="https://advance-lexis-com.mutex.gmu.edu/document/?pdmfid=1516831&crid=049ca98c-8b74-450e-ace7-27e21d53c7a0&pddocfullpath=%2Fshared%2Fdocument%2Fcases%2Furn%3AcontentItem%3A3S12-0310-003D-425R-00000-00&pddocid=urn%3AcontentItem%3A3S12-0310-003D-425R-00000-00&pdcontentcomponentid=10810&pdshepid=urn%3AcontentItem%3A7XWY-JM51-2NSD-M25G-00000-00&pdteaserkey=sr3&pditab=allpods&ecomp=3fyk&earg=sr3&prid=ef74f912-4518-4ddd-9705-007dcb7e54fb"
-                                            target="_blank">Shiflett v. M. Timberlake, Inc., 205 Va. 406.</a></p>
-                                    <ol style="list-style-type: lower-alpha;">
-                                        <li>
-                                            <p>
-                                                This case supports the plaintiff.
-
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                The case involves the legal element of negligence and the sub-element
-                                                proximate cause. The plaintiff who entered the
-                                                defendant’s drugstore had a right to assume the premises were safe as
-                                                but suffered an injury from floors that were not
-                                                properly mopping by the defendants.
-
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                The case helps the plaintiff because it is a store owner’s
-                                                responsibility to eliminate any hazards for their customers.
-
-                                            </p>
-                                        </li>
-                                    </ol>
-                                </li></br>
-                                <li>
-                                    <p><a href="https://advance-lexis-com.mutex.gmu.edu/api/document?collection=cases&id=urn:contentItem:3S12-01F0-003D-41WR-00000-00&context=1516831"
-                                            target="_blank">Carolina, C. &amp; O. R. Co. v. Mullins, 207 Va. 207</a></p>
-                                    <ol style="list-style-type: lower-alpha;">
-                                        <li>
-                                            <p>
-                                                This case supports the plaintiff.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                The case corresponds to the legal element of negligence and the
-                                                sub-element of damages in particular. The plaintiff had
-                                                suffered damages from flooding that occurred on the tenant’s property
-                                                and proved the injuries received were caused by
-                                                the defendant.
-
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                The case is helpful for the plaintiff if they can prove the defendant’s
-                                                act of negligence was the cause of any damages
-                                                or injuries the plaintiff received.
-
-                                            </p>
-                                        </li>
-                                    </ol>
-                                </li></br>
-                                <li>
-                                    <p><a href="https://advance-lexis-com.mutex.gmu.edu/document/?pdmfid=1516831&crid=7ac4e318-8333-48a5-891d-797115375383&pddocfullpath=%2Fshared%2Fdocument%2Fcases%2Furn%3AcontentItem%3A3S3J-VSB0-003D-5118-00000-00&pddocid=urn%3AcontentItem%3A3S3J-VSB0-003D-5118-00000-00&pdcontentcomponentid=10810&pdshepid=urn%3AcontentItem%3A7XWR-3G81-2NSD-P2J3-00000-00&pdteaserkey=sr3&pditab=allpods&ecomp=3fyk&earg=sr3&prid=7a4b4d65-8b94-4ee2-b6e1-6633a9608961"
-                                            target="_blank">Artrip v. E.E. Berry Equip.Co., 240 Va. 354</a></p>
-                                    <ol style="list-style-type: lower-alpha;">
-                                        <li>
-                                            <p>
-                                                This case supports the plaintiff.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                The case involves the legal element of contributory negligence,
-                                                specifically the sub-element duty. It demonstrated that
-                                                the plaintiff had taken caution when near a snowbank to prove they were
-                                                not contributory negligent and that the
-                                                defendant instead was held responsible.
-
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                The case can help the plaintiff that by proving they demonstrated a duty
-                                                to be careful with the robot, they cannot be
-                                                held responsible.
-                                            </p>
-                                        </li>
-                                    </ol>
-                                </li></br>
-                                <li>
-                                    <p><a href="https://advance-lexis-com.mutex.gmu.edu/document/?pdmfid=1516831&crid=da053415-b559-4538-9204-c60ed1d779c9&pddocfullpath=%2Fshared%2Fdocument%2Fcases%2Furn%3AcontentItem%3A3S3J-VVC0-003D-51TJ-00000-00&pddocid=urn%3AcontentItem%3A3S3J-VVC0-003D-51TJ-00000-00&pdcontentcomponentid=10810&pdshepid=urn%3AcontentItem%3A7XWS-5KK1-2NSD-R0P4-00000-00&pdteaserkey=sr21&pditab=allpods&ecomp=3fyk&earg=sr21&prid=2df37135-2822-4c6e-9a22-5be8c06b031b"
-                                            target="_blank">Litchford v. Hancock, 232 Va. 496</a></p>
-                                    <ol style="list-style-type: lower-alpha;">
-                                        <li>
-                                            <p>
-                                                This case supports the defendant.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                The case involves the legal element of contributory negligence,
-                                                specifically the sub-element duty. It involved a motor
-                                                accident where the plaintiff had claimed the defendant was negligent on
-                                                the road when they collided. However, the court
-                                                ruled the case in favor of the defendant, where the defendant was shown
-                                                to demonstrate contributory negligence for not
-                                                maintaining proper distance.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                This case would help the defendant demonstrate that the plaintiff cannot
-                                                simply claim negligence without proper
-                                                evidence. If the plaintiff cannot prove that they had absolutely zero
-                                                responsibility involved, it can be ruled in the
-                                                defendant’s favor.
-                                            </p>
-                                        </li>
-                                    </ol>
-                                </li></br>
-                            </ol>
-                        </div>
-                    </li>
-                    <hr class="hrhalf"></br>
-
-                    <li class="subsubtit1" id="witlist">
-                        <h5>Witness List &amp; Descriptions:</h5>
-                        <ol class="subsubtit2">
-                            <li>
-                                <h5>&nbsp;<u>&nbsp;Witness 1 (Plaintiff - Client): Ethan Turner, Victimized Customer</u>
-                                </h5>
-
-                                <ul style="list-style-type: disc;">
-                                    <li>
-                                        <p>
-                                            Ethan Turner was a customer of MacRonalds who fell victim to the coffee
-                                            accident that occurred in the automated
-                                            drive-thru. He claims that his <b>second</b>-degree burns came from the
-                                            fault of
-                                            the drive-thru robot. He is appalled at
-                                            MacRonalds’ approval of a dangerous machine that failed to complete a
-                                            standard transaction that occurs in the process of
-                                            the drive-thru.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </li></br>
-                            <li>
-                                <h5>&nbsp;<u>Witness 2 (Plaintiff - Friendly): Babbu Singh, Roommate of Ethan Turner</u>
-                                </h5>
-
-                                <ul style="list-style-type: disc;">
-                                    <li>
-                                        <p>
-                                            Babbu is a close roommate of Ethan Turner, having lived with him for 4 years
-                                            and continuing. It would be safe to say,
-                                            Babbu understands the character of Ethan Turner. Babbu was was with Ethan on
-                                            the night of the incident prior to Ethan
-                                            leaving for MacRonalds. He spoke to Ethan, and Ethan’s replies were
-                                            worrisome, hinting at Ethan's exhaustion and sleep
-                                            deprivation.</p>
-                                    </li>
-                                </ul>
-
-                            </li></br>
-                            <li>
-                                <h5>&nbsp;<u>Witness 3 (Defendant - Client): John Scott, CEO of MacRonalds</u></h5>
-                                <ul style="list-style-type: disc;">
-                                    <li>
-                                        <p>
-                                            John Scott is the CEO and founder of MacRonalds. He claims that Mr.Turner's
-                                            injuries were self-inflicted and not the
-                                            fault of the drive-thru robot. He is someone who is always looking to be
-                                            ahead of the curb in the release and use of new
-                                            technology in MacRonalds, so they underwent through several unique tests
-                                            before releasing it to the public.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </li></br>
-                            <li>
-                                <h5>&nbsp;<u>Witness 4 (Defendant - Friendly): Jesse White, Leading software
-                                        engineer</u></h5>
-                                <ul style="list-style-type: disc;">
-                                    <li>
-                                        <p>
-                                            Jesse White, leading software engineer involved in the drive-thru robot
-                                            project, has been working for the company for 10
-                                            years, and 2 years as a senior software engineer. Mr. White has a direct
-                                            perspective on what could have happened during
-                                            the transaction. Mr. White can bring good insight into the logistics of
-                                            the robot.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </li></br>
-                        </ol>
-                    </li>
-                </ol>
-            </div>
-            <hr class="hr"></br>
-            <div class="Trial-Analysis" id="Trial-Analysis">
-                <div>
-                    <p class="titl">II. Overall Trail:</p>
-                    <ul class="subsubtit" style="padding-left: 70px;">
+        <div>
+            <p class="titl">I. Mock Trial Description</p>
+            <ol class="subtit">
+                <li id="backg">
+                    <h5>Background/Scenario:</h5>
+                    <ul class="subsubtit">
                         <li>
-                            <p>We believe the mock trial as submitted provide a viable future mock trial as it
-                                has an interesting and easy to follow
-                                scenario, which involved two legal elements, Negligence, and contributorily
-                                negligence. These two laws are interesting
-                                as they present a complex scenario that can be easily misconstrued, especially
-                                in the state of Virginia. The submitted
-                                mock trial also provides a creative and meticulously woven list of witness
-                                statements, which can be used for the
-                                witnesses on the mock trial to have a clear picture of characters of the
-                                scenario. In addition, there is some helpful
-                                information for both the defendant and plaintiff, which again will help the mock
-                                trial team, lawyers and witnesses, to
-                                have a clear picture of the case as well as finding a way to win the case. the
-                                case is balanced enough that basically,
-                                it is up to the lawyers on how to approach the case in order to win.
+                            <p>Ethan Turner, a customer of MacRonalds, is suing MacRonalds, for the injuries
+                                suffered from the accident that occurred
+                                in the drive-thru. Mr. Turner wants MacRonalds to remove their robot services from
+                                the drive-thru until the bugs are
+                                fixed. MacRonalds, a fast food chain, has recently come up with a new way to serve
+                                drive-thru items with robots. The
+                                robot is designed with a built-in-hand that grips on to food and releases when the
+                                customer has a hold on to the food.
+                                As customers drive up to the drive-thru window, they can see a manual that lets them
+                                know how the robot operates. First,
+                                customers give the order and the robot repeats the order to make sure it entered the
+                                order correctly with the total
+                                cost. Secondly, it asks the customers to drive up to the register window where they
+                                will pay and get their order. The
+                                robot announces “Caution! Handing the order! Prepare to receive it.” and hands, the
+                                customer, their food. Finally, the
+                                robot receives the payment for the food from the customer and returns change if any.
+                            </p>
+                            <p>Ethan Turner, a customer who wanted to get some food for his friends, visited
+                                MacRonalds and ordered 10 meals that
+                                consisted of a sandwich, fries and hot coffee. After giving the order, Mr. Turner
+                                drove up to the window and handed a
+                                100 dollars worth of bills in one hand and 78 cents on the other hand, as payment to
+                                exchange with the robot. The robot
+                                announced that it was delivering the food and as it detected Ethan’s hand, it began
+                                delivering the large order of
+                                coffees to Mr. Turner. With his hand full, Mr. Turner was unable to hold the meal
+                                and this resulted in the hot coffee
+                                spilling on him, causing second-degree burns. The plaintiff Ethan Turner, who
+                                suffered second-degree burns at the
+                                receiving end of the miscalculation, insinuated from the automated drive-thru robot,
+                                is suing the defendant MacRonalds
+                                on the grounds of Negligence and is demanding a preliminary injunction on further
+                                usage of the robot until advancement
+                                in the technology is made. Furthermore, he is seeking payment for the accrued
+                                hospital bills for the damages he
+                                suffered. The defendant must disprove the negligence allegations and show that the
+                                plaintiff had violated contributory
+                                negligence.
                             </p>
                         </li>
+                        </br>
                     </ul>
-                </div>
-            </div></br>
-            <hr class="hr"></br>
+                </li>
+                <hr class="hrhalf">
+                </br>
+                <li id="question">
+                    <h5>Question Presented:</h5>
+                    <ul class="subsubtit">
+                        <li>
+                            <h5>Legal Question:</h5>
+                            <ol style="list-style-type: circle;">
+                                <li>
+                                    <p>
+                                        Is the manufacturer of the self-serving robot liable for the damages
+                                        suffered by the drive-thru customer?
+                                    </p>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <h5>Ethical Question:</h5>
+                            <ol style="list-style-type: circle;">
+                                <li>
+                                    <p>
+                                        Did Ethan behave ethically when e failed to acknowledge the indirect
+                                        warnings before proceeding through the automated
+                                        drive-thru?
+                                    </p>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </li>
+                </br>
+                <hr class="hrhalf">
+                </br>
+                <li id="legal">
+                    <h5>Legal Elements:</h5>
+                    <ul class="subsubtit">
+                        <li>
+                            <p>This particular case involves the victim Ethan Turner and the fast-food mogul
+                                MacRonalds. Both Negligence and
+                                Contributory Negligence have 5 sub-elements that must be proved as outlined in the
+                                Virginia statute. However,
+                                contributory negligence under Virginia law follows the doctrine of pure contributory
+                                negligence which means that if the
+                                plaintiff is even so much as one percent at fault, he/she will have no case. Given
+                                the overwhelming influence of
+                                contributory negligence in Virginia, Only the Duty statute will be expanded upon.
+                            </p>
+                        </li>
+                        <li>
+                            <p>For the defendant to be held liable for Negligence, the plaintiff must demonstrate:
+                            </p>
+                            <ol style="list-style-type: lower-roman">
+                                <li>
+                                    <p>The defendant owed a duty toward the plaintiff (i.e. reasonable care for
+                                        others safety).</p>
+                                    <ul style="list-style-type: circle">
+                                        <li>
+                                            <p>MacRonalds did not demonstrate proper care and safety for their
+                                                customers. Potentially designing and implement robots to
+                                                their restaurants that were not ready for public use yet.</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>The defendant failed to act in a reasonable way or breached its duty (for
+                                        example, a driver was reckless or
+                                        intoxicated).
+                                    </p>
+                                    <ul style="list-style-type: circle">
+                                        <li>
+                                            <p>A lack of supervision of the robots or proper testing before their
+                                                release.</p>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <p>The defendant's breach was the actual cause of another's injuries.</p>
+                                    <ul style="list-style-type: circle">
+                                        <li>
+                                            <p>The robot’s failure to complete correct or intended actions.</p>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <p>The defendant's breach was the proximate cause of the injuries (the defendant
+                                        should have known that the breach would
+                                        cause injury).</p>
+                                    <ul style="list-style-type: circle">
+                                        <li>
+                                            <p>The robot should have realized the customer was not ready to accept
+                                                the meal.</p>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <p>The plaintiff suffered actual injuries, for which they may claim damages.</p>
+                                    <ul style="list-style-type: circle">
+                                        <li>
+                                            <p>The robot had caused some form of damage to the plaintiff.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <p>To be found innocent, the defendant must demonstrate:</p>
+
+                            <ol style="list-style-type: lower-roman">
+                                <li>
+                                    <p>The sub-element of duty:
+                                    </p>
+                                    <ul style="list-style-type: circle">
+                                        <li>
+                                            <p>That the plaintiff was at least somewhat responsible for the cause of
+                                                his their own injuries. Possible scenarios include
+                                                a lack of awareness, inability to read instructions, improper grip,
+                                                or failure to avoid injury.</p>
+                                        </li>
+                                        <li>
+                                            <p>That the plaintiff had not properly followed the instructions given
+                                                by the self serve robot.</p>
+                                        </li>
+                                        <li>
+                                            <p>That they have completed all the care necessary to provide safety to
+                                                their customer. For example, sufficient testing on
+                                                the robot before using them in their store.</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                    </br>
+                </li>
+                <hr class="hrhalf">
+                </br>
+                <li class="subsubtit1" id="lexis">
+                    <h5>Lexis/Nexis Case Bank:
+                        <div class="lexisbox">Note:
+                            <ol style="list-style-type: lower-alpha;">
+                                <li>Which side the case supports.
+                                </li>
+                                <li>Which legal element it impacts.
+                                </li>
+                                <li>Summary of how it helps or hurts each side.</li>
+                            </ol>
+                        </div>
+                    </h5>
+                    </br></br>
+                    <div>
+                        <ol class="subsubtit2">
+                            <li>
+                                <p>
+                                    <a href="https://advance-lexis-com.mutex.gmu.edu/document?crid=933d351e-592e-4ba2-88f7-b20db86b1c99&pddocfullpath=%2Fshared%2Fdocument%2Fcases%2Furn%3AcontentItem%3A3S3J-VV00-003D-51NF-00000-00&pdcontentcomponentid=10810&pdmfid=1516831&pdisurlapi=true"
+                                       target="_blank">Wright
+                                        v. Webb, 234 Va. 527</a></p>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <p>
+                                            This case supports the plaintiff.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The case handles the legal element of negligence, specifically the
+                                            sub-element duty. In the case, the defendant had
+                                            failed to demonstrate their duty of maintaining their parking lot in a
+                                            safe condition. The plaintiff had suffered an
+                                            assault on the defendant’s parking lot and the court found the defendant
+                                            had a duty to maintain that safety for the
+                                            people paying for that service.
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The case would help the plaintiff if they can prove the defendant did
+                                            not demonstrate a duty to make sure their own
+                                            customers are safe on their own property. The defendant has a duty to
+                                            make sure their establishment and any services, in
+                                            this case, the robot is safe for their customers.
+
+                                        </p>
+                                    </li>
+                                </ol>
+                            </li>
+                            </br>
+                            <li>
+                                <p>
+                                    <a href="https://advance-lexis-com.mutex.gmu.edu/api/document?collection=cases&id=urn:contentItem:3XK6-M5J0-00KR-C159-00000-00&context=1516831"
+                                       target="_blank">Smith
+                                        v. Norfolk &amp; W. Ry., 48 W. Va. 69</a></p>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <p>
+                                            This case supports the plaintiff.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The case involves the legal element, negligence, with an emphasis on the
+                                            sub-element breach. The plaintiff, who was a
+                                            passenger of a railway company, had assault and battery committed on
+                                            them where the responsibility of the passengers
+                                            falls under the company. The company had demonstrated negligence by
+                                            breaching their duty of keeping their passengers
+                                            safe.
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            This case will be helpful for the plaintiff if they can prove that the
+                                            defendant had breached their duty of keeping
+                                            their own customers safe when using a service provided at their
+                                            restaurant.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </li>
+                            </br>
+                            <li>
+                                <p>
+                                    <a href="https://advance-lexis-com.mutex.gmu.edu/api/document?collection=cases&id=urn:contentItem:3S12-0DY0-003D-43VF-00000-00&context=1516831"
+                                       target="_blank">Atlantic
+                                        Rural Exposition, Inc. v. Fagan, 195 Va. 13</a></p>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <p>
+                                            This case supports the defendant.
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The case corresponds to the legal element, negligence, with the breach
+                                            as
+                                            the sub-element. The plaintiff suffered an injury
+                                            from the plaintiff’s wheel being detached from their vehicle. It was
+                                            found the vehicle had been subjected to reasonable
+                                            inspection prior to being put on the track so there was no breach of
+                                            duty.
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The case can help the defendant if they can prove all the robots had
+                                            been through proper and sufficient testing, to
+                                            prove they had not breached their duty in making sure the robots were
+                                            safe for public use.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </li>
+                            </br>
+                            <li>
+                                <p>
+                                    <a href="https://advance-lexis-com.mutex.gmu.edu/api/document?collection=cases&id=urn:contentItem:3S3J-WH60-003D-50H9-00000-00&context=1516831"
+                                       target="_blank">Norfolk &amp; W. R. Co. v. Emmert, 83 Va. 640</a></p>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <p>
+                                            This case supports the defendant.
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The case corresponds to the legal element of negligence with the
+                                            sub-element, causation in particular. It involved an
+                                            injury received by the plaintiff from a defective caboose bumper but was
+                                            found that the plaintiff was found responsible
+                                            in his own lack of attention to detail.
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The case can help in favor of the defendant by proving the plaintiff
+                                            failed to follow instructions and the injuries he
+                                            received were caused by his own fault.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </li>
+                            </br>
+                            <li>
+                                <p>
+                                    <a href="https://advance-lexis-com.mutex.gmu.edu/document/?pdmfid=1516831&crid=049ca98c-8b74-450e-ace7-27e21d53c7a0&pddocfullpath=%2Fshared%2Fdocument%2Fcases%2Furn%3AcontentItem%3A3S12-0310-003D-425R-00000-00&pddocid=urn%3AcontentItem%3A3S12-0310-003D-425R-00000-00&pdcontentcomponentid=10810&pdshepid=urn%3AcontentItem%3A7XWY-JM51-2NSD-M25G-00000-00&pdteaserkey=sr3&pditab=allpods&ecomp=3fyk&earg=sr3&prid=ef74f912-4518-4ddd-9705-007dcb7e54fb"
+                                       target="_blank">Shiflett v. M. Timberlake, Inc., 205 Va. 406.</a></p>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <p>
+                                            This case supports the plaintiff.
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The case involves the legal element of negligence and the sub-element
+                                            proximate cause. The plaintiff who entered the
+                                            defendant’s drugstore had a right to assume the premises were safe as
+                                            but suffered an injury from floors that were not
+                                            properly mopping by the defendants.
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The case helps the plaintiff because it is a store owner’s
+                                            responsibility to eliminate any hazards for their customers.
+
+                                        </p>
+                                    </li>
+                                </ol>
+                            </li>
+                            </br>
+                            <li>
+                                <p>
+                                    <a href="https://advance-lexis-com.mutex.gmu.edu/api/document?collection=cases&id=urn:contentItem:3S12-01F0-003D-41WR-00000-00&context=1516831"
+                                       target="_blank">Carolina, C. &amp; O. R. Co. v. Mullins, 207 Va. 207</a></p>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <p>
+                                            This case supports the plaintiff.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The case corresponds to the legal element of negligence and the
+                                            sub-element of damages in particular. The plaintiff had
+                                            suffered damages from flooding that occurred on the tenant’s property
+                                            and proved the injuries received were caused by
+                                            the defendant.
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The case is helpful for the plaintiff if they can prove the defendant’s
+                                            act of negligence was the cause of any damages
+                                            or injuries the plaintiff received.
+
+                                        </p>
+                                    </li>
+                                </ol>
+                            </li>
+                            </br>
+                            <li>
+                                <p>
+                                    <a href="https://advance-lexis-com.mutex.gmu.edu/document/?pdmfid=1516831&crid=7ac4e318-8333-48a5-891d-797115375383&pddocfullpath=%2Fshared%2Fdocument%2Fcases%2Furn%3AcontentItem%3A3S3J-VSB0-003D-5118-00000-00&pddocid=urn%3AcontentItem%3A3S3J-VSB0-003D-5118-00000-00&pdcontentcomponentid=10810&pdshepid=urn%3AcontentItem%3A7XWR-3G81-2NSD-P2J3-00000-00&pdteaserkey=sr3&pditab=allpods&ecomp=3fyk&earg=sr3&prid=7a4b4d65-8b94-4ee2-b6e1-6633a9608961"
+                                       target="_blank">Artrip v. E.E. Berry Equip.Co., 240 Va. 354</a></p>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <p>
+                                            This case supports the plaintiff.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The case involves the legal element of contributory negligence,
+                                            specifically the sub-element duty. It demonstrated that
+                                            the plaintiff had taken caution when near a snowbank to prove they were
+                                            not contributory negligent and that the
+                                            defendant instead was held responsible.
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The case can help the plaintiff that by proving they demonstrated a duty
+                                            to be careful with the robot, they cannot be
+                                            held responsible.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </li>
+                            </br>
+                            <li>
+                                <p>
+                                    <a href="https://advance-lexis-com.mutex.gmu.edu/document/?pdmfid=1516831&crid=da053415-b559-4538-9204-c60ed1d779c9&pddocfullpath=%2Fshared%2Fdocument%2Fcases%2Furn%3AcontentItem%3A3S3J-VVC0-003D-51TJ-00000-00&pddocid=urn%3AcontentItem%3A3S3J-VVC0-003D-51TJ-00000-00&pdcontentcomponentid=10810&pdshepid=urn%3AcontentItem%3A7XWS-5KK1-2NSD-R0P4-00000-00&pdteaserkey=sr21&pditab=allpods&ecomp=3fyk&earg=sr21&prid=2df37135-2822-4c6e-9a22-5be8c06b031b"
+                                       target="_blank">Litchford v. Hancock, 232 Va. 496</a></p>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <p>
+                                            This case supports the defendant.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The case involves the legal element of contributory negligence,
+                                            specifically the sub-element duty. It involved a motor
+                                            accident where the plaintiff had claimed the defendant was negligent on
+                                            the road when they collided. However, the court
+                                            ruled the case in favor of the defendant, where the defendant was shown
+                                            to demonstrate contributory negligence for not
+                                            maintaining proper distance.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            This case would help the defendant demonstrate that the plaintiff cannot
+                                            simply claim negligence without proper
+                                            evidence. If the plaintiff cannot prove that they had absolutely zero
+                                            responsibility involved, it can be ruled in the
+                                            defendant’s favor.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </li>
+                            </br>
+                        </ol>
+                    </div>
+                </li>
+                <hr class="hrhalf">
+                </br>
+
+                <li class="subsubtit1" id="witlist">
+                    <h5>Witness List &amp; Descriptions:</h5>
+                    <ol class="subsubtit2">
+                        <li>
+                            <h5>&nbsp;<u>&nbsp;Witness 1 (Plaintiff - Client): Ethan Turner, Victimized Customer</u>
+                            </h5>
+
+                            <ul style="list-style-type: disc;">
+                                <li>
+                                    <p>
+                                        Ethan Turner was a customer of MacRonalds who fell victim to the coffee
+                                        accident that occurred in the automated
+                                        drive-thru. He claims that his <b>second</b>-degree burns came from the
+                                        fault of
+                                        the drive-thru robot. He is appalled at
+                                        MacRonalds’ approval of a dangerous machine that failed to complete a
+                                        standard transaction that occurs in the process of
+                                        the drive-thru.
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        </br>
+                        <li>
+                            <h5>&nbsp;<u>Witness 2 (Plaintiff - Friendly): Babbu Singh, Roommate of Ethan Turner</u>
+                            </h5>
+
+                            <ul style="list-style-type: disc;">
+                                <li>
+                                    <p>
+                                        Babbu is a close roommate of Ethan Turner, having lived with him for 4 years
+                                        and continuing. It would be safe to say,
+                                        Babbu understands the character of Ethan Turner. Babbu was was with Ethan on
+                                        the night of the incident prior to Ethan
+                                        leaving for MacRonalds. He spoke to Ethan, and Ethan’s replies were
+                                        worrisome, hinting at Ethan's exhaustion and sleep
+                                        deprivation.</p>
+                                </li>
+                            </ul>
+
+                        </li>
+                        </br>
+                        <li>
+                            <h5>&nbsp;<u>Witness 3 (Defendant - Client): John Scott, CEO of MacRonalds</u></h5>
+                            <ul style="list-style-type: disc;">
+                                <li>
+                                    <p>
+                                        John Scott is the CEO and founder of MacRonalds. He claims that Mr.Turner's
+                                        injuries were self-inflicted and not the
+                                        fault of the drive-thru robot. He is someone who is always looking to be
+                                        ahead of the curb in the release and use of new
+                                        technology in MacRonalds, so they underwent through several unique tests
+                                        before releasing it to the public.
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        </br>
+                        <li>
+                            <h5>&nbsp;<u>Witness 4 (Defendant - Friendly): Jesse White, Leading software
+                                engineer</u></h5>
+                            <ul style="list-style-type: disc;">
+                                <li>
+                                    <p>
+                                        Jesse White, leading software engineer involved in the drive-thru robot
+                                        project, has been working for the company for 10
+                                        years, and 2 years as a senior software engineer. Mr. White has a direct
+                                        perspective on what could have happened during
+                                        the transaction. Mr. White can bring good insight into the logistics of
+                                        the robot.
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        </br>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        <hr class="hr">
+        </br>
+        <div class="Trial-Analysis" id="Trial-Analysis">
             <div>
-                <p class="titl" id="note">Authors:</p>
-                <p>Artin Malenian, Cody Barrett, Sahil Gagele, Steven Yun, Sanskar Thapa, Miguel Nunez
-                </p>
+                <p class="titl">II. Overall Trail:</p>
+                <ul class="subsubtit" style="padding-left: 70px;">
+                    <li>
+                        <p>We believe the mock trial as submitted provide a viable future mock trial as it
+                            has an interesting and easy to follow
+                            scenario, which involved two legal elements, Negligence, and contributorily
+                            negligence. These two laws are interesting
+                            as they present a complex scenario that can be easily misconstrued, especially
+                            in the state of Virginia. The submitted
+                            mock trial also provides a creative and meticulously woven list of witness
+                            statements, which can be used for the
+                            witnesses on the mock trial to have a clear picture of characters of the
+                            scenario. In addition, there is some helpful
+                            information for both the defendant and plaintiff, which again will help the mock
+                            trial team, lawyers and witnesses, to
+                            have a clear picture of the case as well as finding a way to win the case. the
+                            case is balanced enough that basically,
+                            it is up to the lawyers on how to approach the case in order to win.
+                        </p>
+                    </li>
+                </ul>
             </div>
         </div>
+        </br>
+        <hr class="hr">
+        </br>
+        <div>
+            <p class="titl" id="note">Authors:</p>
+            <p>Artin Malenian, Cody Barrett, Sahil Gagele, Steven Yun, Sanskar Thapa, Miguel Nunez
+            </p>
+        </div>
     </div>
-    <div class="w3-main" style="margin-left:300px;margin-right:0px">
-        <!-- Footer -->
-        <footer class="grid-container">
-            <div clas="navbar" id="myNavbar">
-                <div class="one"></br></br>
-                    <i><a href="#header">
-                            <div style="font-size: 20px;"><b>To The Top</b></div>
-                        </a></i>
-                </div>
+</div>
+<div class="w3-main" style="margin-left:300px;margin-right:0px">
+    <!-- Footer -->
+    <footer class="grid-container">
+        <div clas="navbar" id="myNavbar">
+            <div class="one"></br></br>
+                <i><a href="#header">
+                    <div style="font-size: 20px;"><b>To The Top</b></div>
+                </a></i>
             </div>
+        </div>
 
 
-            <div class="four">
-                <i>
-                    <div class="title" style="font-size: 20px;">Follow:</div>
-                </i>
-                <a href="https://www.facebook.com/georgemason/" target="_blank"><i
-                        class="fa fa-facebook-f w3-hover-opacity"></i></a>
-                <a href="https://www.instagram.com/georgemasonu" target="_blank"> <i
-                        class="fa fa-instagram w3-hover-opacity"></i></a>
-                <a href="https://socialmedia.gmu.edu/snapchat-at-mason/" target="_blank"><i
-                        class="fa fa-snapchat w3-hover-opacity"></i></a>
-                <a href="https://www.pinterest.com/georgemasonuniv/" target="_blank"><i
-                        class="fa fa-pinterest-p w3-hover-opacity"></i></a>
-                <a href="https://www.twitter.com/georgemasonnews" target="_blank"> <i
-                        class="fa fa-twitter w3-hover-opacity"></i></a>
-                <a href="https://www.linkedin.com/school/george-mason-university/" target="_blank"><i
-                        class="fa fa-linkedin w3-hover-opacity"></i></a>
-            </div>
+        <div class="four">
+            <i>
+                <div class="title" style="font-size: 20px;">Follow:</div>
+            </i>
+            <a href="https://www.facebook.com/georgemason/" target="_blank"><i
+                    class="fa fa-facebook-f w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/georgemasonu" target="_blank"> <i
+                    class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="https://socialmedia.gmu.edu/snapchat-at-mason/" target="_blank"><i
+                    class="fa fa-snapchat w3-hover-opacity"></i></a>
+            <a href="https://www.pinterest.com/georgemasonuniv/" target="_blank"><i
+                    class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+            <a href="https://www.twitter.com/georgemasonnews" target="_blank"> <i
+                    class="fa fa-twitter w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/school/george-mason-university/" target="_blank"><i
+                    class="fa fa-linkedin w3-hover-opacity"></i></a>
+        </div>
 
-            <div class="thi">
-                <i class="mason">
-                    <div><img
-                            src="https://www2.gmu.edu/sites/all/modules/features/feature_core_theme/templates/resources/images/mason-logo.png"
-                            alt="GMU logo" width="130" height="90"></div></br>
-                </i>
-            </div>
+        <div class="thi">
+            <i class="mason">
+                <div><img
+                        src="https://www2.gmu.edu/sites/all/modules/features/feature_core_theme/templates/resources/images/mason-logo.png"
+                        alt="GMU logo" width="130" height="90"></div>
+                </br>
+            </i>
+        </div>
 
-        </footer>
-    </div>
+    </footer>
+</div>
 </body>
 
 </html>
